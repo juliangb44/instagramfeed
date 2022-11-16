@@ -36,31 +36,30 @@ h4 {
     height: 60px;
     margin-left: 30%;
     background: white
+    
 }
 
-.title {
-    margin-left: 15px;
-    width: 90%;
-}
 
 .sub-box-1 {
     display: flex;
     padding-top: 15px;
+    justify-content:space-between;
+}
+.title {
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+.counter {
+    margin-right: 15px;
+  
 }
 
 .logo {
     margin-left: 15px;
 }
 
-.title .name {
-    margin-left: 0px;
-    margin-top: 0px;
 
-}
-
-.counter {
-    width: 10%;
-}
 
 i {
     font-size: 30px;
@@ -86,14 +85,7 @@ i {
     display: flex;
 }
 
-    {
-    font-size: 14px;
-    margin-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 0px;
-    margin-left: 15px;
-}
+
 
 .box-four {
     width: 40%;
